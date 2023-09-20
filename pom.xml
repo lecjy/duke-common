@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <artifactId>duke-common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <name>duke-common</name>
+    <url>https://www.duke.com/</url>
+    <parent>
+        <groupId>com.duke</groupId>
+        <artifactId>duke-server</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modules>
+        <module>duke-common-base</module>
+        <module>duke-common-cache</module>
+        <module>duke-common-tree</module>
+        <module>duke-common-mvc</module>
+        <module>duke-common-mvc-unified</module>
+        <module>duke-common-jsonview</module>
+        <module>duke-common-muti-version-api-mvc</module>
+    </modules>
+</project>
